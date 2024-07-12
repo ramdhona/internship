@@ -1,0 +1,40 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.navigation li {
+  margin: 0 15px;
+  width: 40px;
+}
+.navigation a {
+  background-color: rgb(192, 192, 192);
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 0px;
+  width: 50px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+.navigation a:hover {
+  background-color: #f0f0f0;
+}
+.navigation .active a {
+  color: white;
+  background: rgb(45, 170, 225);
+  background: linear-gradient(
+    106deg,
+    rgba(45, 170, 225, 1) 0%,
+    rgba(45, 127, 193, 1) 46%
+  );
+}
+
+.nav-blog {
+  display: flex;
+  justify-content: start;
+  margin-top: 50px;
+  margin-left: 100px;
+}

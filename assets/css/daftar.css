@@ -1,0 +1,84 @@
+.form-container {
+  width: 100%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-top: 5px;
+}
+input[type="file"] {
+  margin-top: 5px;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-top: 5px;
+}
+input[type="file"] {
+  margin-top: 5px;
+}
+
+select {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+button {
+  width: 140px;
+  padding: 10px;
+  border: 1px solid transparent; /* Removed border */
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 15px; /* Added margin between buttons */
+  font-weight: 600;
+}
+button[type="reset"] {
+  background-color: #e0144c;
+  color: white;
+}
+button[type="submit"] {
+  background-color: #28a0d4;
+  color: white;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+.container-form {
+  overflow: hidden;
+}
+
+.container-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
